@@ -1,0 +1,1 @@
+C:\MobileDevlopmentMAUI\SmartParkingApp\SmartParkingApp\SmartParkingApp.csproj;x64

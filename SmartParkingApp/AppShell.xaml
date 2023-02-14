@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SmartParkingApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SmartParkingApp"
+    Shell.FlyoutBehavior="Flyout">
+
+    <FlyoutItem Title="Home" FlyoutIcon="home.svg">
+
+        <Tab Title="Home" Icon="home.svg">
+            <ShellContent
+                Title="Smart Parking App"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage" />
+        </Tab>
+        <Tab Title="Parking" Icon="parking.svg">
+            <ShellContent
+                Title="Parking"
+                ContentTemplate="{DataTemplate local:ParkingPage}"
+                Route="ParkingPage" />
+        </Tab>
+        <Tab Title="Settings" Icon="setting.svg">
+            <ShellContent
+                Title="Three"
+                ContentTemplate="{DataTemplate local:SettingsPage}"
+                Route="SettingsPage" />
+        </Tab>
+
+    </FlyoutItem>
+    <FlyoutItem Title="About" FlyoutIcon="about.svg">
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            Route="AboutPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Help" FlyoutIcon="help.svg">
+        <ShellContent
+            Title="Help"
+            ContentTemplate="{DataTemplate local:HelpPage}"
+            Route="HelpPage" />
+    </FlyoutItem>
+
+</Shell>
