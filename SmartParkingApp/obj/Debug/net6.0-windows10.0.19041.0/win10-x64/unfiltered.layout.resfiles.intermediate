@@ -51,6 +51,11 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+cityscape.scale-100.png
+cityscape.scale-125.png
+cityscape.scale-150.png
+cityscape.scale-200.png
+cityscape.scale-400.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -66,6 +71,11 @@ home.scale-125.png
 home.scale-150.png
 home.scale-200.png
 home.scale-400.png
+iot.scale-100.png
+iot.scale-125.png
+iot.scale-150.png
+iot.scale-200.png
+iot.scale-400.png
 parking.scale-100.png
 parking.scale-125.png
 parking.scale-150.png

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+qMPrLAEC4HaQ8qtIbzXdDJvvVtVX06v/IhmiLY/cza9xKW0LRrZaEVtu0ePi22ybLNYT0qAgP2YIqKcV6muYw==",
+  "dgSpecHash": "vQQ5FjZjRjEvgamWxbxaNNFS8uytUBK7ap+TKxyRrUD5mRj1X1IyfYzGgervydkqNLib8lLSK4raiC1N/VOgiw==",
   "success": true,
-  "projectFilePath": "C:\\MobileDevlopmentMAUI\\SmartParkingApp\\SmartParkingApp\\SmartParkingApp.csproj",
+  "projectFilePath": "C:\\TechUtsav23\\SmartParkingApp\\SmartParkingApp\\SmartParkingApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\maratdny\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "C:\\Users\\maratdny\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\maratdny\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\maratdny\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

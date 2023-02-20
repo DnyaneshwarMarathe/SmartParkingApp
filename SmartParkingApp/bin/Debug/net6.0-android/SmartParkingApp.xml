@@ -4,5 +4,11 @@
         <name>SmartParkingApp</name>
     </assembly>
     <members>
+        <member name="P:MonkeyFinder.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:MonkeyFinder.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:MonkeyFinder.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:MonkeyFinder.ViewModel.BaseViewModel.title"/>
+        </member>
     </members>
 </doc>
