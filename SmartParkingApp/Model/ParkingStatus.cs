@@ -6,6 +6,8 @@ public class ParkingStatus
 
     public string DeviceName { get; set; }
 
-    public string Status { get; set; }
+    public string ParkingName { get; set; }
+
+    public int OnOffFlag { get; set; }
 }
 

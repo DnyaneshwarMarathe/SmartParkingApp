@@ -4,11 +4,17 @@
         <name>SmartParkingApp</name>
     </assembly>
     <members>
-        <member name="P:MonkeyFinder.ViewModel.BaseViewModel.IsBusy">
-            <inheritdoc cref="F:MonkeyFinder.ViewModel.BaseViewModel.isBusy"/>
+        <member name="P:SmartParkingApp.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:SmartParkingApp.ViewModel.BaseViewModel.isBusy"/>
         </member>
-        <member name="P:MonkeyFinder.ViewModel.BaseViewModel.Title">
-            <inheritdoc cref="F:MonkeyFinder.ViewModel.BaseViewModel.title"/>
+        <member name="P:SmartParkingApp.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:SmartParkingApp.ViewModel.BaseViewModel.title"/>
+        </member>
+        <member name="F:SmartParkingApp.ViewModel.ParkingViewModel.getParkingStatusCommand">
+            <summary>The backing field for <see cref="P:SmartParkingApp.ViewModel.ParkingViewModel.GetParkingStatusCommand"/>.</summary>
+        </member>
+        <member name="P:SmartParkingApp.ViewModel.ParkingViewModel.GetParkingStatusCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SmartParkingApp.ViewModel.ParkingViewModel.GetParkingStatusAsync"/>.</summary>
         </member>
     </members>
 </doc>

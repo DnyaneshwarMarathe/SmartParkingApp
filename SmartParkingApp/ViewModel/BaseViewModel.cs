@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace MonkeyFinder.ViewModel;
+namespace SmartParkingApp.ViewModel;
 
 public partial class BaseViewModel : ObservableObject
 {

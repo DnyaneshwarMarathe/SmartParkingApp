@@ -1,13 +1,16 @@
-﻿namespace SmartParkingApp.View;
+﻿using SmartParkingApp.ViewModel;
+
+namespace SmartParkingApp.View;
 
 public partial class MainPage : ContentPage
 {
 	int count = 0;
 
-	public MainPage()
+	public MainPage(ParkingViewModel viewModel)
 	{
 		InitializeComponent();
-	}
+        BindingContext = viewModel;
+    }
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
