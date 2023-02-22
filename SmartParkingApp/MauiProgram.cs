@@ -1,4 +1,8 @@
-﻿namespace SmartParkingApp;
+﻿using SmartParkingApp.Services;
+using SmartParkingApp.View;
+using SmartParkingApp.ViewModel;
+
+namespace SmartParkingApp;
 
 public static class MauiProgram
 {
@@ -13,6 +17,10 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		return builder.Build();
+        builder.Services.AddSingleton<ParkingService>();
+        builder.Services.AddSingleton<ParkingViewModel>();
+        builder.Services.AddSingleton<MainPage>();
+
+        return builder.Build();
 	}
 }
