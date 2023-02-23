@@ -4,6 +4,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\help.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\home.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\iot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\parkedcar.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\parking.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\setting.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\splash.png
@@ -13,6 +14,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\help.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\home.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\iot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\parkedcar.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\parking.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\setting.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\splash.png
@@ -22,6 +24,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\help.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\home.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\iot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\parkedcar.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\parking.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\setting.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\splash.png
@@ -31,6 +34,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\help.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\home.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\iot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\parkedcar.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\parking.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\setting.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\splash.png
@@ -40,6 +44,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\help.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\home.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\iot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\parkedcar.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\parking.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\setting.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\splash.png

@@ -1,0 +1,50 @@
+﻿[
+  {
+    "DeviceId": "D1",
+    "DeviceName": "Device 1",
+    "ParkingName": "P1",
+    "OnOffFlag": 1
+  },
+  {
+    "DeviceId": "D2",
+    "DeviceName": "Device 2",
+    "ParkingName": "P2",
+    "OnOffFlag": 1
+  },
+  {
+    "DeviceId": "D3",
+    "DeviceName": "Device 3",
+    "ParkingName": "P3",
+    "OnOffFlag": 0
+  },
+  {
+    "DeviceId": "D4",
+    "DeviceName": "Device 4",
+    "ParkingName": "P4",
+    "OnOffFlag": 1
+  },
+  {
+    "DeviceId": "D5",
+    "DeviceName": "Device 5",
+    "ParkingName": "P5",
+    "OnOffFlag": 0
+  },
+  {
+    "DeviceId": "D6",
+    "DeviceName": "Device 6",
+    "ParkingName": "P6",
+    "OnOffFlag": 0
+  },
+  {
+    "DeviceId": "D7",
+    "DeviceName": "Device 7",
+    "ParkingName": "P7",
+    "OnOffFlag": 0
+  },
+  {
+    "DeviceId": "D8",
+    "DeviceName": "Device 8",
+    "ParkingName": "P8",
+    "OnOffFlag": 0
+  }
+]

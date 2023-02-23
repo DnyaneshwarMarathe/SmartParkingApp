@@ -54,6 +54,7 @@
 	  <None Remove="Resources\Images\help.svg" />
 	  <None Remove="Resources\Images\home.svg" />
 	  <None Remove="Resources\Images\iot.svg" />
+	  <None Remove="Resources\Images\parkedcar.svg" />
 	  <None Remove="Resources\Images\parking.svg" />
 	  <None Remove="Resources\Images\setting.svg" />
 	</ItemGroup>

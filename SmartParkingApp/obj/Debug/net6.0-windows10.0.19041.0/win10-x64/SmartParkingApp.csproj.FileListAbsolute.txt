@@ -779,3 +779,8 @@ C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.1904
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-100.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-125.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-150.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-200.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-400.png

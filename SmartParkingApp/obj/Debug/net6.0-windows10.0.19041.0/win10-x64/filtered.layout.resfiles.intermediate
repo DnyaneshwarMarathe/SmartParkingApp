@@ -76,6 +76,11 @@ iot.scale-125.png
 iot.scale-150.png
 iot.scale-200.png
 iot.scale-400.png
+parkedcar.scale-100.png
+parkedcar.scale-125.png
+parkedcar.scale-150.png
+parkedcar.scale-200.png
+parkedcar.scale-400.png
 parking.scale-100.png
 parking.scale-125.png
 parking.scale-150.png
@@ -92,3 +97,4 @@ splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 AboutAssets.txt
+parkingdata.json

@@ -814,6 +814,9 @@
     <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\Resources\Raw\parkingdata.json">
+      <PackagePath>parkingdata.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1062,6 +1065,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-400.png">
       <PackagePath>iot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-100.png">
+      <PackagePath>parkedcar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-125.png">
+      <PackagePath>parkedcar.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-150.png">
+      <PackagePath>parkedcar.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-200.png">
+      <PackagePath>parkedcar.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parkedcar.scale-400.png">
+      <PackagePath>parkedcar.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\parking.scale-100.png">
       <PackagePath>parking.scale-100.png</PackagePath>

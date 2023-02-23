@@ -545,3 +545,6 @@ C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-maccatalyst\macc
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\SmartParkingApp.pdb
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\SmartParkingApp.genruntimeconfig.cache
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\SmartParkingApp.dll
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\parkedcar.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\parkedcar@2x.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\parkedcar@3x.png
