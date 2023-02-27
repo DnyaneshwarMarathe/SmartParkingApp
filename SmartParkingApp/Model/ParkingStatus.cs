@@ -14,5 +14,10 @@ public class ParkingStatus
     {
         get { return this.OnOffFlag == 0 ? Colors.LightGreen : Colors.LightPink; }
     }
+
+    public bool IsOccupied 
+    { 
+        get { return this.OnOffFlag == 0 ? false : true; }
+    }
 }
 

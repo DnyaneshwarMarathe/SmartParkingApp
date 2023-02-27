@@ -26,7 +26,8 @@
                             <Grid Padding="0" ColumnDefinitions="125,*">
                                 <Image Aspect="AspectFill" Source="parkedcar.svg"
                                        WidthRequest="60"
-                                       HeightRequest="60"/>
+                                       HeightRequest="60"
+                                       IsVisible="{Binding IsOccupied}"/>
                                 <Label Grid.Column="1" Style="{StaticResource LargeLabel}" Text="{Binding ParkingName}" />
                                 <!--<Label Style="{StaticResource MediumLabel}" Text="{Binding ParkingName}" />-->
                                 <!--<VerticalStackLayout

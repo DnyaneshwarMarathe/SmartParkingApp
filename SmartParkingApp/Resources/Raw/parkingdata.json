@@ -45,6 +45,6 @@
     "DeviceId": "D8",
     "DeviceName": "Device 8",
     "ParkingName": "P8",
-    "OnOffFlag": 0
+    "OnOffFlag": 1
   }
 ]
