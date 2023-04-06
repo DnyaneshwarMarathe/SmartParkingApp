@@ -15,21 +15,18 @@ public class ParkingService
     List<ParkingStatus> parkingList;
     public async Task<List<ParkingStatus>> GetParkingStatus()
     {
-        if (parkingList?.Count > 0)
-            return parkingList;
-
         // Online
-        //var response = await httpClient.GetAsync("https://www.montemagno.com/monkeys.json");
-        //if (response.IsSuccessStatusCode)
-        //{
-        //    parkingList = await response.Content.ReadFromJsonAsync<List<ParkingStatus>>();
-        //}
+        var response = await httpClient.GetAsync("http://10.83.32.63:1880/GetParkingData");
+        if (response.IsSuccessStatusCode)
+        {
+            parkingList = await response.Content.ReadFromJsonAsync<List<ParkingStatus>>();
+        }
 
         // Offline
-        using var stream = await FileSystem.OpenAppPackageFileAsync("parkingdata.json");
-        using var reader = new StreamReader(stream);
-        var contents = await reader.ReadToEndAsync();
-        parkingList = JsonSerializer.Deserialize<List<ParkingStatus>>(contents);
+        //using var stream = await FileSystem.OpenAppPackageFileAsync("parkingdata.json");
+        //using var reader = new StreamReader(stream);
+        //var contents = await reader.ReadToEndAsync();
+        //parkingList = JsonSerializer.Deserialize<List<ParkingStatus>>(contents);
 
         return parkingList;
     }

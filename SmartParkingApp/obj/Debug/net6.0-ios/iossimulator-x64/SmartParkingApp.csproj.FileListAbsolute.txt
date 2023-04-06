@@ -494,6 +494,7 @@ C:\TechUtsav23\SmartParkingApp\SmartParkingApp\bin\Debug\net6.0-ios\iossimulator
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\mauiimage.inputs
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\mauifont.inputs
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\mauisplash.inputs
@@ -529,6 +530,9 @@ C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\iot.png
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\iot@2x.png
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\iot@3x.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parkedcar.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parkedcar@2x.png
+C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parkedcar@3x.png
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parking.png
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parking@2x.png
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parking@3x.png
@@ -565,6 +569,3 @@ C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\SmartParkingApp.pdb
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\SmartParkingApp.genruntimeconfig.cache
 C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\ref\SmartParkingApp.dll
-C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parkedcar.png
-C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parkedcar@2x.png
-C:\TechUtsav23\SmartParkingApp\SmartParkingApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\parkedcar@3x.png
