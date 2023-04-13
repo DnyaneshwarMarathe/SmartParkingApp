@@ -1,1 +1,0 @@
-C:\TechUtsav23\SmartParkingApp\SmartParkingApp\SmartParkingApp.csproj;x64

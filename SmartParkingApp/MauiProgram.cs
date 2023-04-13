@@ -15,12 +15,14 @@ public static class MauiProgram
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
+			})
+            .UseMauiMaps();
 
         builder.Services.AddSingleton<ParkingService>();
         builder.Services.AddSingleton<ParkingViewModel>();
         builder.Services.AddSingleton<MainPage>();
         builder.Services.AddSingleton<ParkingPage>();
+        builder.Services.AddSingleton<SettingsPage>();
 
         return builder.Build();
 	}

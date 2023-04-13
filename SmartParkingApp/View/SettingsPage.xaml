@@ -2,12 +2,16 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SmartParkingApp.View.SettingsPage"
-             Title="Settings">
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             Title="Maps">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to Settings Page!"
+            Text="Welcome to Map Page!"
             FontSize="Large"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <maps:Map x:Name="map" />
+
     </VerticalStackLayout>
 </ContentPage>

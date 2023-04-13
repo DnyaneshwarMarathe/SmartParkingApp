@@ -37,6 +37,12 @@
                 HeightRequest="100"
                 HorizontalOptions="Center" />
 
+            <Image
+                Source="tietoevry.jpg"
+                SemanticProperties.Description="Tietoevry Logo"
+                HeightRequest="100"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 

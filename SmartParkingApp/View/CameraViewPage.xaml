@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartParkingApp.View.CameraViewPage"
+             Title="Camera View">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="camo.jpg"
+                SemanticProperties.Description="Detecting Car!"
+                HeightRequest="400"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="camt.jpg"
+                SemanticProperties.Description="Detecting Objects!"
+                HeightRequest="400"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="camtr.jpg"
+                SemanticProperties.Description="Detecting Number Plate!"
+                HeightRequest="250"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="camf.jpg"
+                SemanticProperties.Description="Detecting Number Plate!"
+                HeightRequest="450"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -21,13 +21,19 @@
                 ContentTemplate="{DataTemplate view:ParkingPage}"
                 Route="ParkingPage" />
         </Tab>
-        <Tab Title="Settings" Icon="setting.svg">
+        <Tab Title="Maps" Icon="map.svg">
             <ShellContent
                 Title="Three"
                 ContentTemplate="{DataTemplate view:SettingsPage}"
                 Route="SettingsPage" />
         </Tab>
 
+    </FlyoutItem>
+    <FlyoutItem Title="Camera" FlyoutIcon="camera.svg">
+        <ShellContent
+            Title="Camera View"
+            ContentTemplate="{DataTemplate view:CameraViewPage}"
+            Route="CameraViewPage" />
     </FlyoutItem>
     <FlyoutItem Title="About" FlyoutIcon="about.svg">
         <ShellContent
