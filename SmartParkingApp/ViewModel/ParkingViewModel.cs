@@ -28,6 +28,12 @@ public partial class ParkingViewModel : BaseViewModel
             IsBusy = true;
             var parkings = await parkingService.GetParkingStatus();
 
+            var available = parkings.Where(p => p.IsOccupied == false);
+            var occupied = parkings.Where(p => p.IsOccupied == true);
+
+            AvailableParking = available.Count();
+            OccupiedParking = occupied.Count();
+
             if (Parkings.Count != 0)
                 Parkings.Clear();
 

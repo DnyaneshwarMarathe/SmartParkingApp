@@ -6,45 +6,89 @@
              xmlns:viewmodel="clr-namespace:SmartParkingApp.ViewModel"
              x:DataType="viewmodel:ParkingViewModel"
              Title="Real Time Parking View">
-    <Grid
+    <ScrollView>
+        <VerticalStackLayout>
+            <!--<Label 
+            Text="Available"
+            FontSize= "Medium"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        <Label 
+            Text="{Binding AvailableParking}"
+            FontSize= "Medium"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        
+
+            <Label 
+            Text="Occupied"
+            FontSize= "Medium"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="{Binding OccupiedParking}"
+            FontSize= "Medium"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />-->
+
+            <Grid ColumnDefinitions="250,*"
+                  ColumnSpacing="5"
+                  RowDefinitions="*,Auto"
+                  RowSpacing="5">
+                <Label Margin="50,5,0,0" TextColor="Green" Grid.Column="0" Grid.Row="0" FontSize= "Large" Text="Available"></Label>
+                <Label Margin="0,5,10,0" TextColor="Orange" Grid.Column="1" Grid.Row="0" FontSize= "Large" Text="Booked"></Label>
+                <Label Margin="80,0,0,0" TextColor="Green" Grid.Column="0" Grid.Row="2" FontSize= "Large" Text="{Binding AvailableParking}" />
+                <Label Margin="40,0,10,0" TextColor="Orange" Grid.Column="1" Grid.Row="2" FontSize= "Large" Text="{Binding OccupiedParking}" />
+            </Grid>
+
+            <Grid
         ColumnDefinitions="*,*"
         ColumnSpacing="5"
         RowDefinitions="*,Auto"
         RowSpacing="0">
-        <CollectionView
+                <CollectionView
             Grid.ColumnSpan="2"
             ItemsSource="{Binding Parkings}"
             SelectionMode="None">
-            <CollectionView.ItemsLayout>
-                <GridItemsLayout Orientation="Vertical"
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical"
                                  Span="2"/>
-            </CollectionView.ItemsLayout>
-            <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="model:ParkingStatus">
-                    <Grid Padding="10">
-                        <Frame HeightRequest="125" Style="{StaticResource CardView}" BackgroundColor="{Binding CellColor}">
-                            <Grid Padding="0" ColumnDefinitions="125,*">
-                                <Image Aspect="AspectFill" Source="parkedcar.svg"
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:ParkingStatus">
+                            <Grid Padding="10">
+                                <Frame HeightRequest="115" Style="{StaticResource CardView}" BackgroundColor="{Binding CellColor}">
+                                    <Grid Padding="0" ColumnDefinitions="125,*">
+                                        <Image Aspect="AspectFill" Source="parkedcar.svg"
                                        WidthRequest="60"
                                        HeightRequest="60"
                                        IsVisible="{Binding IsOccupied}"/>
-                                <Label Grid.Column="1" Style="{StaticResource LargeLabel}" Text="{Binding ParkingName}" />
-                                <!--<Label Style="{StaticResource MediumLabel}" Text="{Binding ParkingName}" />-->
-                                <!--<VerticalStackLayout
+                                        <Label Grid.Column="1" Style="{StaticResource LargeLabel}" Text="{Binding ParkingName}" />
+                                        <!--<Label Style="{StaticResource MediumLabel}" Text="{Binding ParkingName}" />-->
+                                        <!--<VerticalStackLayout
                                     VerticalOptions="Center"
                                     Grid.Column="1"
                                     Padding="10">
                                     <Label Style="{StaticResource LargeLabel}" Text="{Binding DeviceName}" />
                                     <Label Style="{StaticResource MediumLabel}" Text="{Binding ParkingName}" />
                                 </VerticalStackLayout>-->
+                                    </Grid>
+                                </Frame>
                             </Grid>
-                        </Frame>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
 
-        <Button Text="Get Parking View" 
+                <Label 
+                Text="EON 1 , Level -1"
+                FontSize= "Medium"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="0" />    
+
+                <Button Text="Get Parking View" 
                 Command="{Binding GetParkingStatusCommand}"
                 IsEnabled="{Binding IsNotBusy}"
                 Grid.Row="1"
@@ -53,12 +97,14 @@
                 Margin="8"/>
 
 
-        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                <ActivityIndicator IsVisible="{Binding IsBusy}"
                            IsRunning="{Binding IsBusy}"
                            HorizontalOptions="Fill"
                            VerticalOptions="Center"
                            Color="{StaticResource Primary}"
                            Grid.RowSpan="2"
                            Grid.ColumnSpan="2"/>
-    </Grid>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

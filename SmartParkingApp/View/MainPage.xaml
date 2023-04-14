@@ -40,7 +40,7 @@
             <Image
                 Source="tietoevry.jpg"
                 SemanticProperties.Description="Tietoevry Logo"
-                HeightRequest="100"
+                HeightRequest="60"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>

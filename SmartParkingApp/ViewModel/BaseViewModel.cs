@@ -12,5 +12,11 @@ public partial class BaseViewModel : ObservableObject
     string title;
 
     public bool IsNotBusy => !IsBusy;
+
+    [ObservableProperty]
+    int availableParking;
+
+    [ObservableProperty]
+    int occupiedParking;
 }
 
