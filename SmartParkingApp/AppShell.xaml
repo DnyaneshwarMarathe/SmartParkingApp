@@ -29,6 +29,12 @@
         </Tab>
 
     </FlyoutItem>
+    <FlyoutItem Title="Parking Site Map" FlyoutIcon="parkingsite.svg">
+        <ShellContent
+            Title="Parking Site Map View"
+            ContentTemplate="{DataTemplate view:ParkingSiteMapViewPage}"
+            Route="ParkingSiteMapViewPage" />
+    </FlyoutItem>
     <FlyoutItem Title="Camera" FlyoutIcon="camera.svg">
         <ShellContent
             Title="Camera View"

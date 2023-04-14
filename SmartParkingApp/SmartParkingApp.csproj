@@ -56,7 +56,9 @@
 	  <None Remove="Resources\Images\iot.svg" />
 	  <None Remove="Resources\Images\parkedcar.svg" />
 	  <None Remove="Resources\Images\parking.svg" />
+	  <None Remove="Resources\Images\parkingsite.svg" />
 	  <None Remove="Resources\Images\setting.svg" />
+	  <None Remove="Resources\Images\sitemap.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -73,6 +75,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\CameraViewPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ParkingSiteMapViewPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
