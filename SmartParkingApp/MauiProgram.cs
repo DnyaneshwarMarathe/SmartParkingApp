@@ -20,9 +20,11 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<ParkingService>();
         builder.Services.AddSingleton<ParkingViewModel>();
+        builder.Services.AddSingleton<ParkingSiteViewModel>();
         builder.Services.AddSingleton<MainPage>();
         builder.Services.AddSingleton<ParkingPage>();
         builder.Services.AddSingleton<SettingsPage>();
+        builder.Services.AddSingleton<ParkingSiteMapViewPage>();
 
         return builder.Build();
 	}
