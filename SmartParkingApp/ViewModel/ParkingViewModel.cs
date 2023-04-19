@@ -52,5 +52,11 @@ public partial class ParkingViewModel : BaseViewModel
         }
 
     }
+
+    [RelayCommand]
+    async Task GoToDetails(ParkingStatus parkingStatus)
+    {
+        await Shell.Current.GoToAsync("///ParkingSiteMapViewPage");
+    }
 }
 

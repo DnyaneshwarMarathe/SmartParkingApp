@@ -83,12 +83,17 @@
                         <DataTemplate x:DataType="model:ParkingStatus">
                             <Grid Padding="10">
                                 <Frame HeightRequest="115" Style="{StaticResource CardView}" BackgroundColor="{Binding CellColor}">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ParkingViewModel}}, Path=GoToDetailsCommand}"
+                                            CommandParameter="{Binding .}"/>
+                                    </Frame.GestureRecognizers>
                                     <Grid Padding="0" ColumnDefinitions="125,*">
                                         <Image Aspect="AspectFill" Source="parkedcar.svg"
                                        WidthRequest="60"
                                        HeightRequest="60"
                                        IsVisible="{Binding IsOccupied}"/>
-                                        <Label Grid.Column="1" WidthRequest="30" Style="{StaticResource LargeLabel}" Text="{Binding DeviceName}" />
+                                        <Label Grid.Column="1" WidthRequest="30" Style="{StaticResource LargeLabel}" Text="{Binding ParkingName}" />
                                         <!--<Label Style="{StaticResource MediumLabel}" Text="{Binding ParkingName}" />-->
                                         <!--<VerticalStackLayout
                                     VerticalOptions="Center"

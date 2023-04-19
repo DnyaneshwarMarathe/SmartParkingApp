@@ -6,13 +6,13 @@
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
-            Padding="30,0"
+            Padding="10,0"
             VerticalOptions="Center">
 
             <Image
                 Source="parkingslots.jpg"
                 SemanticProperties.Description="Wing D"
-                HeightRequest="600"
+                HeightRequest="700"
                 HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>

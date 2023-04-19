@@ -16,7 +16,7 @@ public class ParkingService
     public async Task<List<ParkingStatus>> GetParkingStatus()
     {
         // Online
-        var response = await httpClient.GetAsync("http://192.168.0.104:1880/GetParkingData");
+        var response = await httpClient.GetAsync("http://192.168.0.105:1880/GetParkingData");
         if (response.IsSuccessStatusCode)
         {
             parkingList = await response.Content.ReadFromJsonAsync<List<ParkingStatus>>();
