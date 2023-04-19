@@ -57,6 +57,7 @@
 	  <None Remove="Resources\Images\parkedcar.svg" />
 	  <None Remove="Resources\Images\parking.svg" />
 	  <None Remove="Resources\Images\parkingsite.svg" />
+	  <None Remove="Resources\Images\parkingslots.png" />
 	  <None Remove="Resources\Images\setting.svg" />
 	  <None Remove="Resources\Images\sitemap.jpg" />
 	</ItemGroup>

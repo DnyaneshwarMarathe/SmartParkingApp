@@ -10,7 +10,7 @@
             VerticalOptions="Center">
 
             <Image
-                Source="sitemap.jpg"
+                Source="parkingslots.jpg"
                 SemanticProperties.Description="Wing D"
                 HeightRequest="600"
                 HorizontalOptions="Center" />
