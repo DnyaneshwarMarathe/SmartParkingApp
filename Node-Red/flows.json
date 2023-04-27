@@ -1,0 +1,102 @@
+[
+    {
+        "id": "bd1b40e423173c10",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f9ef553792a9cebb",
+        "type": "http in",
+        "z": "bd1b40e423173c10",
+        "name": "",
+        "url": "/GetParkingData",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 320,
+        "wires": [
+            [
+                "7f7c921d06f85c62"
+            ]
+        ]
+    },
+    {
+        "id": "7f7c921d06f85c62",
+        "type": "data-generator",
+        "z": "bd1b40e423173c10",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "syntax": "json",
+        "template": "[{{#repeat 8}}\n{\n   \"deviceId\": \"{{int 1 8}}\",\n   \"deviceName\": \"D{{int 1 8}}\",\n   \"parkingName\": \"P{{add @index 1}}\",\n   \"onOffFlag\": \"{{int 0 1}}\"\n}\n{{/repeat}}]",
+        "x": 520,
+        "y": 320,
+        "wires": [
+            [
+                "4ec423aca0ce4932",
+                "c2502630b27f30fa"
+            ]
+        ]
+    },
+    {
+        "id": "4ec423aca0ce4932",
+        "type": "http response",
+        "z": "bd1b40e423173c10",
+        "name": "Success",
+        "statusCode": "200",
+        "headers": {},
+        "x": 820,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c2502630b27f30fa",
+        "type": "debug",
+        "z": "bd1b40e423173c10",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 830,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d0374f5d87a7c820",
+        "type": "inject",
+        "z": "bd1b40e423173c10",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 460,
+        "wires": [
+            [
+                "7f7c921d06f85c62"
+            ]
+        ]
+    }
+]
